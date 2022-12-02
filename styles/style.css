@@ -6,9 +6,15 @@
   box-sizing: border-box;
 }
 
+/* 링크 스타일 */
+a{
+  color: inherit;
+  text-decoration: none;
+}
 
 /* 본문 스타일 */
 body {
+  color: #212121; 
   background: #ccc;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
@@ -37,7 +43,24 @@ body {
 
 /* 텍스트 링크 모음 */
 .member{
-  background-color: aqua;
+  /* background-color: aqua; */
+  text-align: right;
+  padding: 4px 0;
+}
+
+.member li{
+  /* background-color: pink; */
+  display: inline-block;
+}
+
+.member a{
+  background-color: coral;
+  padding: 6px 10px;
+  display: inherit;
+}
+
+.divider{
+  margin-right: 4px;
 }
 
 
