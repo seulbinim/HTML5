@@ -33,15 +33,19 @@ body {
 /* 메인 */
 .main{
   background: lightgreen;
-  height: 50vh;
+  min-height: 450px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
 }
 
 .group1{
   background-color: violet;
-  width: 250px;
+  width: 250px; 
 }
+
 .group2{
   background-color: salmon;
   width: 380px;
