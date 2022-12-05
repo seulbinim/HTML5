@@ -42,8 +42,18 @@ body {
   justify-content: flex-end;
 }
 
+/* 우선순위 규칙 */
+/* li (Type Selector) - 1점 */
+/* .first (Class Selector) - 10점 */
+/* #item (ID Selector) - 100점 */
+
+/* .member -> 10점, li -> 1점, ::before -> 1점  => 12점  */
 .member li::before {
   content: ":";
+}
+/* .member -> 10점, .first -> 10점, ::before -> 1점  => 21점  */
+.member .first::before {
+  content: "첫번째 자식요소를 생성합니다.";
 }
 
 /* 비주얼 */
