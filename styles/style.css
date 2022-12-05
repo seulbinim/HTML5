@@ -2,76 +2,86 @@
 @import url(./reset.css);
 
 /* 기본 스타일 */
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
-
 
 /* 본문 스타일 */
 body {
   background: #ffc;
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 /* 레이아웃 */
-.header, .visual, .main, .slogan, .footer-inner{
+.header,
+.visual,
+.main,
+.slogan,
+.footer-inner {
   width: 940px;
   margin: 0 auto;
 }
 
 /* 헤더 */
-.header{
+.header {
   background: pink;
   padding: 0 30px;
   height: 15vh;
 }
 /* 비주얼 */
-.visual{
+.visual {
   background: orange;
   height: 10vh;
 }
 /* 메인 */
-.main{
+.main {
   background: lightgreen;
-  min-height: 450px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 30px;
+  border-top: 1px solid red;
+  /* min-height: 450px; */
+  position: absolute;
 }
 
-.group1{
+.group {
+  height: 100px;
+}
+.group1 {
   background-color: violet;
-  width: 250px; 
+  width: 250px;
+  float: right;
 }
 
-.group2{
+.group2 {
   background-color: salmon;
   width: 380px;
+  float: right;
 }
-.group3{
+.group3 {
   background-color: gold;
   width: 190px;
+  float: right;
 }
 
 /* 슬로건 */
-.slogan{
+.slogan {
   background: skyblue;
   height: 10vh;
   clear: both;
 }
 /* 푸터 */
-.footer{
+.footer {
   background: gray;
   width: 940px;
   margin: 0 auto;
 }
-.footer-inner{
+.footer-inner {
   background: silver;
   height: 15vh;
   position: relative;
   top: -10px;
   left: -10px;
 }
-
