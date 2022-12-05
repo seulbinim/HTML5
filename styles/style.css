@@ -29,10 +29,23 @@ body {
 
 /* 헤더 */
 .header {
-  background: pink;
+  background: #fff;
   padding: 0 30px;
   height: 15vh;
+  border-radius: 0 0 15px 15px;
 }
+
+.member {
+  background-color: pink;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.member li::before {
+  content: ":";
+}
+
 /* 비주얼 */
 .visual {
   background: orange;
