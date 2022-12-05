@@ -1,5 +1,6 @@
 @import url(./normalize.css);
 @import url(./reset.css);
+@import url(./fontello.css);
 
 /* 기본 스타일 */
 *,
@@ -59,13 +60,14 @@ body {
   content: "";
 } */
 
-.member li:nth-child(n + 2)::before {
+/* .member li:nth-child(n + 2)::before {
   content: ":";
   background-color: skyblue;
-}
+} */
 
-.member li:nth-child(n + 2):nth-child(-n + 4) {
-  background-color: yellow;
+.member li::before {
+  content: "\e800";
+  font-family: fontello;
 }
 
 /* 비주얼 */
