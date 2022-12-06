@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 /* 링크 스타일 */
 a {
   color: inherit;
@@ -16,6 +20,8 @@ a {
 
 /* 본문 스타일 */
 body {
+  /* em, rem 단위를 사용해보기 */
+  font-size: 1.4rem;
   color: #212121;
   background: #ccc;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
