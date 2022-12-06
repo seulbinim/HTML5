@@ -94,6 +94,18 @@ body {
   margin-right: 4px;
 }
 
+/* 메인 메뉴 */
+.menu {
+  background: #e85e2c
+    linear-gradient(
+      to bottom,
+      #ef9126 0%,
+      #e85e2c 35%,
+      #e85e2c 70%,
+      #ef9126 100%
+    );
+}
+
 /* 비주얼 */
 .visual {
   background: orange;
