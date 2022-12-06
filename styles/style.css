@@ -52,7 +52,6 @@ body {
 
 /* 텍스트 링크 모음 */
 .member {
-  background-color: aqua;
   text-align: right;
   padding: 4px 0;
   /* position 속성을 활용하여 .member 영역을 오른쪽으로 10px 만큼 이동하기 */
@@ -63,12 +62,10 @@ body {
 }
 
 .member li {
-  /* background-color: pink; */
   display: inline-block;
 }
 
 .member a {
-  background-color: coral;
   padding: 6px 10px;
   display: inherit;
   text-transform: uppercase;
