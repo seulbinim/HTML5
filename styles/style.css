@@ -101,6 +101,7 @@ body {
 }
 
 .menu {
+  border-top: 2px solid currentColor;
   background: #e85e2c
     linear-gradient(
       to bottom,
@@ -109,6 +110,20 @@ body {
       #e85e2c 70%,
       #ef9126 100%
     );
+  border-radius: 0 0 5px 5px;
+  display: flow-root;
+  padding-left: 230px;
+}
+
+.menu-item {
+  background-color: aqua;
+  float: left;
+}
+
+.sub-menu {
+  background-color: pink;
+  position: absolute;
+  display: none;
 }
 
 /* 비주얼 */
