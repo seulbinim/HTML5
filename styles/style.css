@@ -1,6 +1,13 @@
 @import url(./normalize.css);
 @import url(./reset.css);
 
+/* 숨김 콘텐츠 */
+.a11y-hidden {
+  background-color: yellow;
+  position: absolute;
+  top: -9999em;
+}
+
 /* 기본 스타일 */
 *,
 *::before,
