@@ -99,7 +99,7 @@ body {
 
 /* 메인 메뉴 */
 .navigation {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .menu {
@@ -151,7 +151,6 @@ body {
 }
 
 .sub-menu {
-  background-color: pink;
   position: absolute;
   top: 47px;
   display: none;
@@ -176,7 +175,6 @@ body {
 
 .sub-menu li {
   display: inline-block;
-  background-color: gold;
 }
 
 .sub-menu a::before {
@@ -199,6 +197,16 @@ body {
 .sub-menu a:hover::before,
 .sub-menu a:focus::before {
   content: "\e801";
+}
+
+.sub-menu a {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.sub-menu a:hover,
+.sub-menu a:focus {
+  color: #f00;
 }
 
 /* 비주얼 */
