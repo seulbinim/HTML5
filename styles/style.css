@@ -1,3 +1,4 @@
+@import url(./fontello.css);
 @import url(./normalize.css);
 @import url(./reset.css);
 
@@ -175,8 +176,29 @@ body {
 
 .sub-menu li {
   display: inline-block;
-  padding-left: 1em;
   background-color: gold;
+}
+
+.sub-menu a::before {
+  content: "\e805";
+  font-family: "fontello";
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sub-menu a:hover::before,
+.sub-menu a:focus::before {
+  content: "\e801";
 }
 
 /* 비주얼 */
