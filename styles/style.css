@@ -30,15 +30,15 @@ a {
 
 /* 본문 스타일 */
 body {
-  /* em, rem 단위를 사용해보기 */
-  font-size: 1.4rem;
   color: #212121;
-  background: #ccc
-    linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
+  font-size: 1.4rem;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  background: url("./images/bg_flower.png") no-repeat 50% 0,
+    #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%)
+      repeat 0 0;
 }
 
 /* 레이아웃 */
@@ -226,7 +226,6 @@ body {
 }
 
 .visual {
-  background: orange;
   height: 120px;
   position: relative;
 }
@@ -237,7 +236,6 @@ body {
   animation-duration: 3000ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  background-color: aqua;
   /* display: inline-block; */
   position: absolute;
 }
