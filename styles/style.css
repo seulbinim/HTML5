@@ -211,10 +211,37 @@ body {
 }
 
 /* 비주얼 */
+@keyframes moveEffect {
+  0% {
+    font-size: 12px;
+    color: hsla(0, 0%, 0%, 0);
+    transform: translate(0, 0);
+  }
+
+  100% {
+    font-size: 24px;
+    color: hsla(0, 0%, 0%, 1);
+    transform: translate(400px, 75px);
+  }
+}
+
 .visual {
   background: orange;
-  height: 10vh;
+  height: 120px;
+  position: relative;
 }
+
+.visual-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  animation-name: moveEffect;
+  animation-duration: 3000ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  background-color: aqua;
+  /* display: inline-block; */
+  position: absolute;
+}
+
 /* 메인 */
 .main {
   background: lightgreen;
