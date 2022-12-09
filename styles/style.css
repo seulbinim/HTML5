@@ -360,9 +360,18 @@ body {
   background-color: #fff;
   border-radius: 0 0 5px 5px;
   padding: 4px 10px;
-  display: flex;
+  /* display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: flow-root;
+}
+
+.sign li:first-child {
+  float: left;
+}
+
+.sign li:last-child {
+  float: right;
 }
 
 .sign a {
