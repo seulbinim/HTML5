@@ -321,19 +321,17 @@ body {
 
 .login-form fieldset {
   position: relative;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 5px;
 }
 
-.user-email {
-  background-color: skyblue;
-}
-
+.user-email,
 .user-pw {
-  background-color: lime;
+  margin-bottom: 5px;
 }
 
 .login-form label {
   display: inline-block;
-  background-color: salmon;
   width: 4em;
 }
 
@@ -341,12 +339,21 @@ body {
   width: 90px;
   height: 24px;
   border: 1px solid #aaa;
+  padding: 1px 1px 1px 5px;
+  border-radius: 3px;
 }
 
 .login-button {
   position: absolute;
   top: 0;
   right: 0;
+  height: 53px;
+  background-color: orangered;
+  color: #fff;
+  border: 0;
+  padding: 0 8px;
+  border-radius: 5px;
+  font-size: 13px;
 }
 
 .sign {
