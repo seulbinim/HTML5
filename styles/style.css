@@ -386,8 +386,21 @@ body {
 }
 
 .validation-list li {
-  background-color: pink;
   margin-top: 10px;
+}
+
+.validation-list a {
+  display: block;
+  background: url("./images/validation_icon.png") no-repeat 25px 50%,
+    #ccc linear-gradient(to bottom, #ccc, #eee);
+  padding: 8px 15px 8px 55px;
+  border-radius: 30px;
+  border: 1px solid #aaa;
+}
+
+.validation-list a:hover,
+.validation-list a:focus {
+  color: #f00;
 }
 
 /* 슬로건 */
