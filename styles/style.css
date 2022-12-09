@@ -366,7 +366,7 @@ body {
 }
 
 .sign li:first-child {
-  margin-right: 23px;
+  margin-right: 16px;
 }
 
 .sign a {
@@ -376,9 +376,6 @@ body {
 }
 
 .sign a::before {
-  content: "\e804";
-  font-family: fontello;
-  margin-right: 8px;
   color: orangered;
 }
 
