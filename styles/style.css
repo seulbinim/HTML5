@@ -360,22 +360,24 @@ body {
   background-color: #fff;
   border-radius: 0 0 5px 5px;
   padding: 4px 10px;
-  /* display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between; */
-  display: flow-root;
+  font-size: 0;
+}
+.sign li {
+  font-size: 14px;
+  display: inline-block;
 }
 
 .sign li:first-child {
-  float: left;
+  width: 35%;
 }
 
 .sign li:last-child {
-  float: right;
+  width: 65%;
+  text-align: right;
 }
 
 .sign a {
-  display: block;
+  display: inline-block;
   padding: 6px 0;
   letter-spacing: -1px;
 }
