@@ -360,20 +360,13 @@ body {
   background-color: #fff;
   border-radius: 0 0 5px 5px;
   padding: 4px 10px;
-  font-size: 0;
 }
 .sign li {
-  font-size: 14px;
   display: inline-block;
 }
 
 .sign li:first-child {
-  width: 35%;
-}
-
-.sign li:last-child {
-  width: 65%;
-  text-align: right;
+  margin-right: 23px;
 }
 
 .sign a {
