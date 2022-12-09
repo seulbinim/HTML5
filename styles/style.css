@@ -379,6 +379,17 @@ body {
   color: orangered;
 }
 
+/* 유효성 검사 배너 */
+.validation-list {
+  background-color: yellow;
+  margin-top: 25px;
+}
+
+.validation-list li {
+  background-color: pink;
+  margin-top: 10px;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
