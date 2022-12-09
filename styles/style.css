@@ -390,12 +390,14 @@ body {
 }
 
 .validation-list a {
-  display: block;
   background: url("./images/validation_icon.png") no-repeat 25px 50%,
     #ccc linear-gradient(to bottom, #ccc, #eee);
-  padding: 8px 15px 8px 55px;
+  padding: 0 15px 0 55px;
   border-radius: 30px;
+  line-height: 30px;
   border: 1px solid #aaa;
+  cursor: pointer;
+  display: block;
 }
 
 .validation-list a:hover,
