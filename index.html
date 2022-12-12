@@ -209,21 +209,60 @@
           </div>
         </fieldset>
       </form>
-
       <div class="board">
-        <ul class="tab-list" role="tablist">
-          <li role="none"><button type="button" class="tab" role="tab">공지사항</button></li>
-          <li role="none"><button type="button" class="tab" role="tab">자료실</button></li>
-        </ul>
-        <div class="notice tab-panel" role="tabpanel">
-          <h2 class="a11y-hidden">공지사항</h2>
-          <ul class="board-list"></ul>
+        <div class="tab-list" role="tablist">
+          <button type="button" class="tab" role="tab" aria-selected="true" aria-controls="notice" id="noticeButton">공지사항</button>
+          <button type="button" class="tab" role="tab" aria-selected="false" aria-controls="archive" id="archiveButton">자료실</button>
+        </div>
+        <div class="notice tab-panel" role="tabpanel" id="notice" aria-labelledby="noticeButton">
+          <ul class="board-list">
+            <li>
+              <a class="icon-stop" href="/">HTML의 모든 것을 알려주마 샘플 활용법</a>
+              <time datetime="2022-12-12T13:53:45">2022.12.12</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">W3C 사이트 리뉴얼 및 공지사항</a>
+              <time datetime="2022-12-12T13:53:45">2022.12.12</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">KWCAG 2.1 소식</a>
+              <time datetime="2022-12-12T13:53:45">2022.12.12</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">서버 점검으로 인한 사이트 이용안내 입니다.</a>
+              <time datetime="2022-12-12T13:53:45">2022.12.12</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">여러분들이 생각하는 웹 접근성에 대해 이야기를 나누어 봅시다.</a>
+              <time datetime="2022-12-12T13:53:45">2022.12.12</time>
+            </li>
+          </ul>
           <a href="/" class="board-more icon-plus">더보기</a>
         </div>
 
-        <div class="archive tab-panel" role="tabpanel">
-          <h2 class="a11y-hidden">자료실</h2>
-          <ul class="board-list"></ul>
+        <div class="archive tab-panel" role="tabpanel" id="archive" aria-labelledby="archiveButton">
+          <ul class="board-list">
+            <li>
+              <a class="icon-stop" href="/">디자인 사이트 링크 모음</a>
+              <time datetime="2022-12-21T13:53:45">2022.12.21</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">웹 접근성 관련 자료 모음</a>
+              <time datetime="2022-12-21T13:53:45">2022.12.21</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">예제 샘플 응용해보기</a>
+              <time datetime="2022-12-21T13:53:45">2022.12.21</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">웹 접근성 향상을위한 국가 표준 기술 가이드라인</a>
+              <time datetime="2022-12-21T13:53:45">2022.12.21</time>
+            </li>
+            <li>
+              <a class="icon-stop" href="/">로얄티 프리 이미지 자료</a>
+              <time datetime="2022-12-21T13:53:45">2022.12.21</time>
+            </li>
+          </ul>
           <a href="/" class="board-more icon-plus">더보기</a>
         </div>
       </div>
