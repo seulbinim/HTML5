@@ -465,17 +465,14 @@ body {
   border: 1px solid #aaa;
   border-radius: 15px 15px 0 0;
   padding: 15px 25px 10px;
-  /* width: 300px; */
 }
 
 .search-form-inner {
-  /* background-color: yellow; */
   display: flex;
   flex-flow: row nowrap;
 }
 
 .form-group {
-  /* background-color: pink; */
   flex-grow: 1;
   display: flex;
   flex-flow: row nowrap;
@@ -483,8 +480,7 @@ body {
   padding-right: 10px;
 }
 .form-group-label {
-  /* background-color: lime; */
-  white-space: nowrap;
+  flex-shrink: 0;
   margin-right: 10px;
 }
 .form-group-input {
@@ -493,12 +489,12 @@ body {
   height: 24px;
   padding: 1px 1px 1px 5px;
   flex-grow: 1;
-  /* min-width: 0;
-  max-width: 100%; */
+  min-width: 0;
+  width: 100%;
 }
 
 .search-button {
-  white-space: nowrap;
+  flex-shrink: 0;
   background-color: #000;
   color: #fff;
   height: 24px;
