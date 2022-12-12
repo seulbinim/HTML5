@@ -491,6 +491,7 @@ body {
   flex-grow: 1;
   min-width: 0;
   width: 100%;
+  font-size: 1.2rem;
 }
 
 .search-button {
