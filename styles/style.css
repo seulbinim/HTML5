@@ -505,6 +505,20 @@ body {
   font-size: 1.2rem;
 }
 
+/* 공지사항 및 자료실 */
+.board {
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.is-select.tab-panel {
+  display: block;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
