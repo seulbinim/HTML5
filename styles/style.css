@@ -420,23 +420,25 @@ body {
 
 .term-list {
   margin-top: 10px;
-  background-color: yellow;
 }
 
 .term-list div {
-  background-color: pink;
   margin-top: 10px;
   display: flow-root;
 }
 
-.term-list-subject {
-  background-color: lime;
+.term-list-subject,
+.term-list-brief {
   float: right;
   width: 145px;
 }
 
+.term-list-subject {
+  color: #296897;
+  font-weight: 500;
+}
+
 .term-list-thumbnail {
-  background-color: purple;
   float: left;
 }
 
@@ -445,9 +447,17 @@ body {
 }
 
 .term-list-brief {
-  background-color: coral;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+.cross .term-list-subject,
+.cross .term-list-brief {
+  float: left;
+}
+
+.cross .term-list-thumbnail {
   float: right;
-  width: 145px;
 }
 
 /* 슬로건 */
