@@ -646,6 +646,43 @@ body {
 
 /* 신규 이벤트 및 관련 사이트 */
 
+.event {
+  border-bottom: 1px solid #aaa;
+}
+
+.event-button-wrapper {
+  background-color: yellow;
+  height: 18px;
+  overflow: hidden;
+}
+
+/* IR 기법 -> Image Replacement */
+.event-button {
+  width: 19px;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.event-thumbnail,
+.event-brief {
+  margin: 10px 0;
+}
+
+.event-brief {
+  line-height: 1.5;
+}
+
+.related {
+  margin-top: 10px;
+}
+
+.related-list {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
