@@ -569,6 +569,33 @@ body {
   color: hsla(110, 50%, 30%, 1);
 }
 
+/* 새소식 */
+.news {
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+.news-link {
+}
+
+.news-item {
+}
+
+.news-item-title {
+}
+
+.news-item-date {
+}
+
+.news-item-brief {
+}
+
+.news-item-thumbnail {
+}
+
+.news-more {
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
