@@ -21,4 +21,17 @@ $( document ).ready(function() {
       $(this).parent().addClass('is-select');
     }
   });
+
+  // tab 요소에 클릭 이벤트를 추가한다.
+	$('.tab').on('click', function(e) {
+		e.preventDefault();
+		// 클릭한 tab 요소에 aria-selected=true로 지정하고 
+		// 형제요소중에 자신 tab 이외의 나머지 tab 요소들을 aria-selected=false로 지정한다.
+		$(this).attr('aria-selected', true).siblings().attr('aria-selected', false);
+		$(this).attr('class', 'tab is-select').siblings().attr('class', 'tab');
+		
+		var selectedId = "#"+$(this).attr('aria-controls');
+		//자신은 보이게하고 다른 tabpanel은 보이지 않게 지정한다.
+		$(selectedId).addClass('is-select').siblings().removeClass('is-select');
+	});
 });
