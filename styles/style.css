@@ -650,14 +650,18 @@ body {
   border-bottom: 1px solid #aaa;
 }
 
+.event-title {
+  display: inline-block;
+}
+
 .event-button-wrapper {
-  background-color: yellow;
   height: 20px;
   overflow: hidden;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   gap: 5px;
+  float: right;
 }
 
 /* IR 기법 -> Image Replacement */
@@ -682,6 +686,11 @@ body {
   margin: 10px 0;
 }
 
+.event-thumbnail img {
+  border: 1px solid #aaa;
+  box-shadow: 5px 5px 0 0 #ccc;
+}
+
 .event-brief {
   line-height: 1.5;
 }
@@ -692,7 +701,13 @@ body {
 
 .related-list {
   background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 5px;
   margin-top: 10px;
+}
+
+.related-list:hover,
+.related-list:focus {
 }
 
 /* 슬로건 */
