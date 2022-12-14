@@ -789,10 +789,44 @@ body {
 
 /* 슬로건 */
 .slogan {
-  background: skyblue;
-  height: 10vh;
   clear: both;
+  position: relative;
+  padding: 15px 100px 15px 180px;
 }
+
+.slogan-title {
+  width: 110px;
+  height: 83px;
+  line-height: 83px;
+  text-align: center;
+  position: absolute;
+  bottom: -25px;
+  left: 35px;
+}
+
+.slogan-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./images/coffee.png") no-repeat 0 0;
+}
+
+.slogan-content {
+  color: #a09784;
+}
+
+.slogan-content q::before {
+  display: inline-block;
+  font-size: 3rem;
+  transform: translateY(10px);
+}
+.slogan-content q::after {
+  content: "";
+}
+
 /* 푸터 */
 .footer {
   background: #ccc
