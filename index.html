@@ -303,9 +303,10 @@
         <section class="event">
           <h2 class="event-title text-xl">신규 <span class="accent-color">이벤트</span></h2>
           <div class="event-button-wrapper">
-            <button type="button" class="event-button event-button-prev">이전 이벤트 보기</button>
-            <button type="button" class="event-button event-button-next">다음 이벤트 보기</button>
+            <button type="button" class="event-button event-button-prev" aria-label="이전 이벤트 보기"></button>
+            <button type="button" class="event-button event-button-next" aria-label="다음 이벤트 보기"></button>
           </div>
+
           <div id="eventDetail">
             <p class="event-thumbnail">
               <img src="./assets/free_gift.gif" alt="이벤트 경품 : 웹표준 핵심 가이드북 2(HTML5+CSS3) 증정" />
@@ -316,7 +317,7 @@
           </div>
         </section>
         <section class="related">
-          <h2 class="related-title">관련 <span class="accent-color">사이트</span></h2>
+          <h2 class="related-title text-xl">관련 <span class="accent-color">사이트</span></h2>
           <ul class="related-list" tabindex="0">
             <li><a href="/">제로베이스</a></li>
             <li><a href="/">MDN</a></li>
