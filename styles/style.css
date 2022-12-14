@@ -102,17 +102,21 @@ body {
 
 .event-button-wrapper {
   background-color: yellow;
+  overflow: hidden;
+  padding: 4px;
 }
 
 .event-button {
   width: 19px;
   border: 0;
-  padding: 20px 0 0 0;
+  height: 18px;
+  padding: 0;
+  text-indent: -9999px;
   background: aqua url("./images/back_forward.png") no-repeat;
 }
 
 .event-button-next {
-  background-position: -36px 0;
+  background-position: 100% 0;
 }
 
 .event-thumbnail,
