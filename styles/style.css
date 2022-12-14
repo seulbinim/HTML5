@@ -742,16 +742,29 @@ body {
 
 .favorite-list li {
   margin-top: 10px;
+  counter-increment: number;
 }
 
 .favorite-list li::before {
-  content: "1";
+  content: counter(number);
   background-color: #aaa;
   color: #fff;
-  padding: 1px 6px;
   font-size: 1.2rem;
   margin-right: 5px;
   border-radius: 3px;
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.up,
+.stop,
+.down {
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+  background-color: pink;
 }
 
 .favorite-more {
