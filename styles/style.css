@@ -833,6 +833,40 @@ body {
     linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
 }
 .footer-inner {
-  background: silver;
-  height: 15vh;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  width: 150px;
+  padding: 20px 0 0 35px;
+}
+
+.footer-inner-wrapper {
+  flex: 1 1 auto;
+}
+
+.guide-list {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #7b8385;
+  color: #fff;
+  padding: 4px 45px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+.guide-list a {
+  display: block;
+  padding: 6px 10px;
+}
+
+.address,
+.copyright {
+  display: block;
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
