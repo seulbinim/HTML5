@@ -101,16 +101,19 @@ body {
 }
 
 .event {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
   border-bottom: 1px solid #aaa;
 }
 
+.event-title {
+  /* background-color: pink; */
+  float: left;
+}
+
 .event-button-wrapper {
+  /* background-color: yellow; */
   display: flex;
   flex-flow: row nowrap;
-  align-items: flex-start;
+  justify-content: flex-end;
   gap: 5px;
 }
 
@@ -119,7 +122,7 @@ body {
   border: 0;
   height: 18px;
   padding: 0;
-  background: aqua url("./images/back_forward.png") no-repeat;
+  background: url("./images/back_forward.png") no-repeat;
 }
 
 .event-button-next {
